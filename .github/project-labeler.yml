@@ -1,9 +1,0 @@
-projects:
-  - match: Sprint.* # RegExp for project name
-    labels: # List of label's rules
-      - required: ["bug"]
-        whitelist: ["invalid"] # Only issues with any of whitelist labels are going to be processed
-        blacklist: ["Won't fix"] # In this case label "Size: S" will be added only on issues with "Bug" label and without "Won't fix"
-  - match: TECHDEBT.*
-    labels:
-      - required: ["Area: Infrastructure"]
