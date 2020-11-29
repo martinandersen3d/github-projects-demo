@@ -47,7 +47,9 @@ while true; do
 done
 
 # TODO: Get a list of Projects
+# Docs: https://cli.github.com/manual/gh_api
 # api url parameters: placeholder values ":owner", ":repo", and ":branch" get populated with values from the repository of the current directory;
+# The sed command will extract strings between A and B: sed 's/"A"/\n"B"/g
 # Use this command:
 # gh api repos/:owner/:repo/projects -H "Accept: application/vnd.github.inertia-preview+json"  | sed 's/"node_id"/\n"body"/g' | grep '"name"' | awk -F',' '{print $2}'
 
