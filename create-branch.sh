@@ -11,7 +11,7 @@
 # -s, --state string       Filter by state: {open|closed|all} (default "open")
 gh issue list --state open --limit 1500
 
-echo '_______✅________________________'
+echo '____________________________'
 echo -n "WRITE THE NUMBER YOU WOULD LIKE TO WORK ON (Without the hashtag) : "
 read issueId
 echo "You have chosen issue with Id: #$issueId"
@@ -37,8 +37,8 @@ echo "Do you want to create the branch: $issueTitle"
 while true; do
     read -p "Press (y/n) then ENTER: " yn
     case $yn in
-        [Yy]* ) echo "nice"; break;;
-        [Nn]* ) exit;;
+        [Yy]* ) echo "[ ✓ ] Creating branch: $issueTitle"; break;;
+        [Nn]* ) echo "[ X ] Goodbye. See you soon.";  exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
@@ -47,11 +47,17 @@ git checkout -b $issueTitle
 # TODO: catch error: "fatal: A branch named 'sgfdgdfgdf' already exists."
 
 
-git commit --allow-empty -m "Intial Branch Commit"
-git push --set-upstream origin $issueTitle
-# The title has to be exact "Fixes number", then it will auto link it to the issue.
-gh pr create --project "Sprint_001_Automated_Kanban_with_reviews" --title "#$issueId - $issueTitle" --body "Fixes #$issueId - Do not change this line" --draft
+echo "[ ✓ ] Creating Commit";
+git commit --allow-empty -m "Initial Branch Commit"
 
+echo "[ ✓ ] Pushing branch to origin";
+git push --set-upstream origin $issueTitle
+
+
+# The title has to be exact "Fixes number", then it will auto link it to the issue.
+echo "[ ✓ ] Creating a DRAFT pull request";
+echo "[ ✓ ] Assigning current branch to Issue: #$issueId - $issueTitle";
+gh pr create --project "Sprint_001_Automated_Kanban_with_reviews" --title "#$issueId - $issueTitle" --body "Fixes #$issueId - Do not change this line" --draft
 
 # HACK: W
 # gh issue close 10
