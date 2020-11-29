@@ -40,4 +40,4 @@ while true; do
 done
 
 git checkout -b $issueTitle
-git push
+git push --set-upstream origin $issueTitle
