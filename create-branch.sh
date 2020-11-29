@@ -46,6 +46,8 @@ while true; do
     esac
 done
 
+
+
 git checkout -b $issueTitle
 # TODO: catch error: "fatal: A branch named 'sgfdgdfgdf' already exists."
 
