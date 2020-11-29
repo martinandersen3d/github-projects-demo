@@ -1,5 +1,5 @@
 projects:
-  - match: Sprint* # RegExp for project name
+  - match: Sprint.* # RegExp for project name
     labels: # List of label's rules
       - required: ["bug"]
         whitelist: ["invalid"] # Only issues with any of whitelist labels are going to be processed
