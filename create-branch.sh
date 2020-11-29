@@ -46,6 +46,20 @@ while true; do
     esac
 done
 
+# TODO: Get a list of Projects
+# api url parameters: placeholder values ":owner", ":repo", and ":branch" get populated with values from the repository of the current directory;
+# Use this command:
+# gh api repos/:owner/:repo/projects -H "Accept: application/vnd.github.inertia-preview+json"  | sed 's/"node_id"/\n"body"/g' | grep '"name"' | awk -F',' '{print $2}'
+
+# It will output like this:
+# "name":"Backlog"
+# "name":"Sprint_001_Automated_Kanban"
+# "name":"Sprint_001_Automated_Kanban_with_reviews"
+# "name":"Sprint_001_Automated_Kanban"
+# "name":"Sprint 1"
+
+
+
 git checkout -b $issueTitle
 # TODO: catch error: "fatal: A branch named 'sgfdgdfgdf' already exists."
 
