@@ -40,5 +40,6 @@ while true; do
 done
 
 git checkout -b $issueTitle
+git commit --allow-empty -m "Intial Branch Commit"
 git push --set-upstream origin $issueTitle
 gh pr create --title "#$issueId - $issueTitle" --body "IssueId: #$issueId" --draft
