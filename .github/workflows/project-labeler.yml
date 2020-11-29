@@ -1,19 +1,16 @@
 # Github Action for adding labels to issues based on project
 
-name: Project labeler
-
-
-# Controls when the action will run. 
+name: ProjectLabeler
 on:
   issues:
     types:
       - assigned
 
 jobs:
-  triage:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - name: Add labels by project
-        uses: d-i-bondarenko/project-labeler@v0.2.0
+      - uses: actions/checkout@v1
+      - uses: ./
         with:
           repo-token: "${{ secrets.GITAPP }}"
