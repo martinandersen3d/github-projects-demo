@@ -31,4 +31,4 @@ jobs:
         # Relative path under $GITHUB_WORKSPACE to place the repository
         #
         # Default: current directory
-        path: ''
+        path: '/home/runner/work/github-projects-demo/github-projects-demo'
