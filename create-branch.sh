@@ -1,10 +1,13 @@
 #!/bin/bash
 
+# Remember to make .sh executable (righclick > options > executable)
+
+
+
 # TODO: Check for git status
 # If okay, switch to "Dev branch"
 # TODO: git pull
 
-# Remember to make .sh executable (righclick > options > executable)
 
 # List Issue parameters:
 # -L, --limit int          Maximum number of issues to fetch (default 30)
