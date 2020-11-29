@@ -40,4 +40,5 @@ while true; do
 done
 
 git checkout -b $issueTitle
-
+git push --set-upstream origin $issueTitle
+gh pr create --title "#$issueId - $issueTitle" --body "IssueId: #$issueId" --draft
