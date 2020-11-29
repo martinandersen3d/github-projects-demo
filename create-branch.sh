@@ -46,6 +46,7 @@ while true; do
     esac
 done
 
+=======
 # TODO: Get a list of Projects
 # Docs: https://cli.github.com/manual/gh_api
 # api url parameters: placeholder values ":owner", ":repo", and ":branch" get populated with values from the repository of the current directory;
