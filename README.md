@@ -12,3 +12,4 @@ https://medium.com/@01010111/using-google-forms-to-submit-github-issues-efdb5f87
 (share by email invite, not a shared link)
 https://mixedanalytics.com/knowledge-base/access-github-data-in-google-sheets/
 
+.
