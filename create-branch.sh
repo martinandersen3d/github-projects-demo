@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# TODO: Check for git status
+# If okay, switch to "Dev branch"
+# TODO: git pull
+
 # Remember to make .sh executable (righclick > options > executable)
 
 # List Issue parameters:
@@ -7,7 +11,7 @@
 # -s, --state string       Filter by state: {open|closed|all} (default "open")
 gh issue list --state open --limit 1500
 
-echo '_______________________________'
+echo '_______✅________________________'
 echo -n "WRITE THE NUMBER YOU WOULD LIKE TO WORK ON (Without the hashtag) : "
 read issueId
 echo "You have chosen issue with Id: #$issueId"
@@ -40,6 +44,9 @@ while true; do
 done
 
 git checkout -b $issueTitle
+# TODO: catch error: "fatal: A branch named 'sgfdgdfgdf' already exists."
+
+
 git commit --allow-empty -m "Intial Branch Commit"
 git push --set-upstream origin $issueTitle
 # The title has to be exact "Fixes number", then it will auto link it to the issue.
