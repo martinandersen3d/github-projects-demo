@@ -42,4 +42,10 @@ done
 git checkout -b $issueTitle
 git commit --allow-empty -m "Intial Branch Commit"
 git push --set-upstream origin $issueTitle
-gh pr create --title "#$issueId - $issueTitle" --body "IssueId: #$issueId" --draft
+# The title has to be exact "Fixes number", then it will auto link it to the issue.
+gh pr create --project "Sprint_001_Automated_Kanban_with_reviews" --title "Fixes #$issueId - $issueTitle" --body "Fixes #$issueId - Do not change this line" --draft
+
+
+# HACK: W
+# gh issue close 10
+# gh issue reopen 10
