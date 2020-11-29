@@ -43,7 +43,7 @@ git checkout -b $issueTitle
 git commit --allow-empty -m "Intial Branch Commit"
 git push --set-upstream origin $issueTitle
 # The title has to be exact "Fixes number", then it will auto link it to the issue.
-gh pr create --project "Sprint_001_Automated_Kanban_with_reviews" --title "Fixes #$issueId - $issueTitle" --body "Fixes #$issueId - Do not change this line" --draft
+gh pr create --project "Sprint_001_Automated_Kanban_with_reviews" --title "#$issueId - $issueTitle" --body "Fixes #$issueId - Do not change this line" --draft
 
 
 # HACK: W
