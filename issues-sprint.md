@@ -7,15 +7,7 @@ Note: SP is abbreviation for "StoryPoint"
 
 # Current Sprint: [link](#Sprint 2) (Example Sprint 2)
 
-[link](# Sprint 2) 
-
-[link](Sprint 2) 
-
-[link](#Sprint 2) 
-
-[link](##Sprint 2) 
-
-[link](/#Sprint%202) 
+[Sprint 2](#Sprint%202) 
 
 
 #32     cccc
