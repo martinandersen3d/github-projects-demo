@@ -19,10 +19,11 @@ A clear and concise description of any alternative solutions or features you've 
 Add any other context or screenshots about the feature request here.
 
 
-**Acceptance Test**
+**Acceptance Test - Done Criteria**
 What requirements needs to be met, for the feature to be implemented?
 
 Examples:
+It should put on a raincoat 👚 when it rains 🌧️ and is outside 🌍
 It should (expected output) in (action) when given (condition1) and (condition2)
 It should (decired ourcome) when given (condition1) and (condition2)
 It should succeed in creating a order when given valid inputs and a acceptet  payment

@@ -46,7 +46,7 @@ Actual:
 
 # Major (Issues that contain many small issues)
 
-#3
+#3 [Major] 
 
 
 
