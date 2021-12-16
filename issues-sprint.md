@@ -10,6 +10,9 @@ Note: SP is abbreviation for "StoryPoint"
 
 ⭐ Urgent feature
 🐞 Urgent bug
+🚀 Major Issue
+🍕 🍉  Unused Emojis
+
 
 **Team Members**
 @martinandersen3d - Martin Andersen
@@ -20,7 +23,7 @@ Note: SP is abbreviation for "StoryPoint"
 
 #32     cccc
 #24     merge me into dev
-
+🐘
 
 
 # Parked (Issues that are temporarily paused for some reason)
@@ -58,7 +61,11 @@ Actual:
 
 # Major (Issues that contain many small issues)
 
-#3 [Major] 
+#3 [Major] 🚀
+
+*   #20 `8 SP` title 
+*   #21 `8 SP` title
+*   #22 `8 SP` title
 
 
 
