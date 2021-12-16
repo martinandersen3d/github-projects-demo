@@ -11,6 +11,8 @@ Note: SP is abbreviation for "StoryPoint"
 ⭐ Urgent feature
 🐞 Urgent bug
 🚀 Major Issue
+🔎 Quality Assurance (Before deploy)
+✔️ Deployed to Production Server
 🍕 🍉  Unused Emojis
 
 
@@ -22,36 +24,36 @@ Note: SP is abbreviation for "StoryPoint"
 
 # Current Sprint: Sprint 2
 
-#32     cccc
-#24     merge me into dev
+#32     Feature: cccc 
+#24     Feature: merge me into dev
 
 
 
 
-# Sprint 1
+# Sprint 1 - Apr. 1 - Apr 15
 
-#24 `7 SP`	merge me into dev @martinandersen3d ⭐
-#16	`3 SP` can i move automatic to "in progress" in project 🐞
-#12	`5 SP` checkmarks to show progress 🐞
-~~#11	`8 SP` bug lalalala 🐞~~
+#24 `7 SP` Feature: merge me into dev @martinandersen3d ⭐ ✔️
+#16	`3 SP` Bug: can i move automatic to "in progress" in project 🐞 ✔️
+#12	`5 SP` Bug: checkmarks to show progress 🐞 ✔️
+~~#11	`8 SP` Bug: lalalala 🐞~~
 
 Estimated: `23 SP` 
 Actual:    `23 SP`  (after completion)
-# Sprint 2
+# Sprint 2  - Apr. 16 - May 31
 
 Note: James is on holliday
 
-#32     cccc
-#24     merge me into dev
-#11	`8 SP` bug lalalala 🐞 
+#32     Feature: cccc
+#24     Feature: merge me into dev
+#11	`8 SP` Bug: lalalala 🐞 
 
 Estimated: 
 Actual:    
 
 # Sprint 3
 
-#5	[3pt] Four
-#4	[1pt]Issue Three
+#5	Feature: Four
+#4	Feature: Issue Three
 
 Estimated: 
 Actual:    
@@ -60,29 +62,30 @@ Actual:
 
 #3 [Major] 🚀
 
-*   #20 `8 SP` title 
-*   #21 `8 SP` title
-*   #22 `8 SP` title
+*   #20 `8 SP` Feature: title 
+*   #21 `8 SP` Feature: title
+*   #22 `8 SP` Bug: title
 
 
 
 # Parked (Issues that are temporarily paused for some reason)
 
-#8	I found a bug3 - James is on holliday
-#9	crash bug3 - Does not have enougth information
+#8	Bug: I found a bug3 - James is on holliday
+#9	Bug: crash bug3 - Does not have enougth information
 
 
 # Backlog - Need to Have
 
-#1	[5pt] title
+#1	Bug:  title
 
 # Backlog - Nice to Have
-#2	[5pt] title
+#2	Bug: title
 # Backlog - Maybe to Have
-#3	[5pt] title
+#3	Bug: title
 # Backlog - Workaround found
-#4	[5pt] title
+#4	Bug: title
 
 <span class="label" style="background-color: rgb(255, 0, 0); color: white;">
     important
 </span>
+
