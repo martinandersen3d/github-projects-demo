@@ -11,9 +11,12 @@ Note: SP is abbreviation for "StoryPoint"
 ⭐ Urgent feature
 🐞 Urgent bug
 🚀 Major Issue
-🔎 Quality Assurance (Before deploy)
+~~🔎 Quality Assurance (Before deploy)~~
 ✔️ Deployed to Production Server
 🍕 🍉  Unused Emojis
+
+~~**Strike-Through**~~
+a issue that didn't make it in this sprint, but is moved to next sprint
 
 
 **Team Members**
@@ -22,7 +25,7 @@ Note: SP is abbreviation for "StoryPoint"
 
 ---
 
-# Current Sprint: Sprint 2
+## Current Sprint: Sprint 2
 
 #32     Feature: cccc 
 #24     Feature: merge me into dev
@@ -30,7 +33,7 @@ Note: SP is abbreviation for "StoryPoint"
 
 
 
-# Sprint 1 - Apr. 1 - Apr 15
+## Sprint 1 - Apr. 1 - Apr 15
 
 #24 `7 SP` Feature: merge me into dev @martinandersen3d ⭐ ✔️
 #16	`3 SP` Bug: can i move automatic to "in progress" in project 🐞 ✔️
@@ -39,7 +42,7 @@ Note: SP is abbreviation for "StoryPoint"
 
 Estimated: `23 SP` 
 Actual:    `23 SP`  (after completion)
-# Sprint 2  - Apr. 16 - May 31
+## Sprint 2  - Apr. 16 - May 31
 
 Note: James is on holliday
 
@@ -50,7 +53,7 @@ Note: James is on holliday
 Estimated: 
 Actual:    
 
-# Sprint 3
+## Sprint 3
 
 #5	Feature: Four
 #4	Feature: Issue Three
@@ -58,7 +61,7 @@ Actual:
 Estimated: 
 Actual:    
 
-# Major (Issues that contain many small issues)
+## Major (Issues that contain many small issues)
 
 #3 [Major] 🚀
 
@@ -68,21 +71,24 @@ Actual:
 
 
 
-# Parked (Issues that are temporarily paused for some reason)
+## Parked (Issues that are temporarily paused for some reason)
 
 #8	Bug: I found a bug3 - James is on holliday
 #9	Bug: crash bug3 - Does not have enougth information
 
 
-# Backlog - Need to Have
+## Backlog - Need to Have
 
 #1	Bug:  title
 
-# Backlog - Nice to Have
+## Backlog - Nice to Have
 #2	Bug: title
-# Backlog - Maybe to Have
+# Backlog - Maybe not to Have
 #3	Bug: title
-# Backlog - Workaround found
+
+## Backlog - Not to Have
+#3	Bug: title
+## Backlog - Workaround found
 #4	Bug: title
 
 <span class="label" style="background-color: rgb(255, 0, 0); color: white;">
