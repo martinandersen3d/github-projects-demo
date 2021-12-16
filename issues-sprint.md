@@ -7,8 +7,6 @@ Note: SP is abbreviation for "StoryPoint"
 
 # Current Sprint: [link](#Sprint 2) (Example Sprint 2)
 
-[Sprint 2](#Sprint%202) 
-
 
 #32     cccc
 
@@ -24,11 +22,8 @@ Note: SP is abbreviation for "StoryPoint"
 # Sprint 1
 
 #24 `7 SP`	merge me into dev @martinandersen3d
-
 #16	`3 SP` can i move automatic to "in progress" in project
-
 #12	`5 SP` checkmarks to show progress
-
 #11	`8 SP` bug lalalala
 
 Estimated: `23 SP` 
