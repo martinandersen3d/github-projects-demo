@@ -10,4 +10,7 @@
 
 Product-Backlog
 
-# 
+# Poker Planning Meeting
+for hvert issues skrives der en kommentar:
+SP 3 5 7  (her er det 3 personer der estimer)
+Samt entuelle noter

@@ -17,18 +17,15 @@ Note: SP is abbreviation for "StoryPoint"
 **Team Members**
 @martinandersen3d - Martin Andersen
 </div>
+
 ---
 
 # Current Sprint: Sprint 2
 
 #32     cccc
 #24     merge me into dev
-🐘
 
 
-# Parked (Issues that are temporarily paused for some reason)
-
-#8	I found a bug3
 
 
 # Sprint 1
@@ -69,9 +66,22 @@ Actual:
 
 
 
-# Backlog
+# Parked (Issues that are temporarily paused for some reason)
 
-#1	[5pt] one issue
+#8	I found a bug3 - James is on holliday
+#9	crash bug3 - Does not have enougth information
+
+
+# Backlog - Need to Have
+
+#1	[5pt] title
+
+# Backlog - Nice to Have
+#2	[5pt] title
+# Backlog - Maybe to Have
+#3	[5pt] title
+# Backlog - Workaround found
+#4	[5pt] title
 
 <span class="label" style="background-color: rgb(255, 0, 0); color: white;">
     important
