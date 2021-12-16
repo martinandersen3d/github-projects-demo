@@ -5,11 +5,9 @@
 Note: SP is abbreviation for "StoryPoint"
 
 
-# Current Sprint: [link](#Sprint 2) (Example Sprint 2)
-
+# Current Sprint: Sprint 2
 
 #32     cccc
-
 #24     merge me into dev
 
 
@@ -28,25 +26,23 @@ Note: SP is abbreviation for "StoryPoint"
 
 Estimated: `23 SP` 
 Actual:    `23 SP`  (after completion)
-
-
-
 # Sprint 2
 
 Note: James is on holliday
 
 #32     cccc
-
 #24     merge me into dev
 
+Estimated: 
+Actual:    
 
 # Sprint 3
 
 #5	[3pt] Four
-
 #4	[1pt]Issue Three
 
-
+Estimated: 
+Actual:    
 
 # Major (Issues that contain many small issues)
 
