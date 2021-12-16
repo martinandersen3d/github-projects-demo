@@ -23,7 +23,7 @@ Add any other context or screenshots about the feature request here.
 What requirements needs to be met, for the feature to be implemented?
 
 Examples:
-It should put on a raincoat 👚 when it rains 🌧️ and is outside 🌍
+It should put on a raincoat 👚 when it rains 🌧️ and is outside 🌍 but not in sunny Spain 🌞
 It should (expected output) in (action) when given (condition1) and (condition2)
 It should (decired ourcome) when given (condition1) and (condition2)
 It should succeed in creating a order when given valid inputs and a acceptet  payment

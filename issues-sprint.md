@@ -1,9 +1,20 @@
-# Storypoints
+<div style="background:#eee">
 
+# Quickguide
+
+**Storypoints**
 0.5 1 2 3 5 8 10
-
 Note: SP is abbreviation for "StoryPoint"
 
+**Emojis**
+
+⭐ Urgent feature
+🐞 Urgent bug
+
+**Team Members**
+@martinandersen3d - Martin Andersen
+</div>
+---
 
 # Current Sprint: Sprint 2
 
@@ -19,10 +30,10 @@ Note: SP is abbreviation for "StoryPoint"
 
 # Sprint 1
 
-#24 `7 SP`	merge me into dev @martinandersen3d
-#16	`3 SP` can i move automatic to "in progress" in project
-#12	`5 SP` checkmarks to show progress
-#11	`8 SP` bug lalalala
+#24 `7 SP`	merge me into dev @martinandersen3d ⭐
+#16	`3 SP` can i move automatic to "in progress" in project 🐞
+#12	`5 SP` checkmarks to show progress 🐞
+~~#11	`8 SP` bug lalalala 🐞~~
 
 Estimated: `23 SP` 
 Actual:    `23 SP`  (after completion)
@@ -32,6 +43,7 @@ Note: James is on holliday
 
 #32     cccc
 #24     merge me into dev
+#11	`8 SP` bug lalalala 🐞 
 
 Estimated: 
 Actual:    
