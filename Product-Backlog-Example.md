@@ -23,7 +23,11 @@ a issue that didn't make it in this sprint, but is moved to next sprint
 
 ## Current Sprint: Sprint 2
 
-[#32](https://github.com/martinandersen3d/github-projects-demo/issues/32)  Feature: cccc  
+[#55](https://github.com/martinandersen3d/github-projects-demo/issues/55)  `x SP` Feature: sdfsfsdf
+sdfsfsdf
+[#666](https://github.com/martinandersen3d/github-projects-demo/issues/666)  `x SP` Bug: ssdfsdfsdfdsfdsf
+
+[#32](https://github.com/martinandersen3d/github-projects-demo/issues/32) Feature: cccc  
 [#24](https://github.com/martinandersen3d/github-projects-demo/issues/24) Feature: merge me into dev
 
 ## Sprint 1 - Apr. 1 - Apr 15
