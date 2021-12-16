@@ -17,3 +17,17 @@ A clear and concise description of any alternative solutions or features you've 
 
 **Additional context**
 Add any other context or screenshots about the feature request here.
+
+
+**Acceptance Test**
+What requirements needs to be met, for the feature to be implemented?
+
+Examples:
+It should (expected output) in (action) when given (condition1) and (condition2)
+It should (decired ourcome) when given (condition1) and (condition2)
+It should succeed in creating a order when given valid inputs and a acceptet  payment
+It should fail in creating a order when given valid inputs and a rejected payment
+It computes discount, total and commiss1on for a percentage account with a percentage coupon
+It computes discount, total and commission on a monetary coupon on a percentage account for a three day reservation
+It fails to generate a pricequote when there is no matching storage to the reservation
+
