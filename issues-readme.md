@@ -10,6 +10,15 @@
 
 Product-Backlog
 
+
+# Product-Backlog Branch Setup And Edit
+
+- Create a branch called "Product-Backlog"
+- Github has a new feature: just press the "." period key on the keyboard, 
+and now you can edit any repostory right in 
+
+
+
 # Poker Planning Meeting
 
 for hvert issues skrives der en kommentar:  
@@ -25,3 +34,6 @@ GitHub Hovercard
 Github Writer:
 
 https://chrome.google.com/webstore/detail/github-writer/diilnnhpcdjhhkjcbdljaonhmhapadap
+
+HeadingsMap - Shows a Table Of Contents
+
